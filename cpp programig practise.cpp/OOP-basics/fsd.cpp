@@ -64,6 +64,7 @@ struct DataManager {
 
 int main()
 {
+
     DataManager manager;
     cout << "1. Add Teacher Data" << endl;
     cout << "2. Add Student Data" << endl;
