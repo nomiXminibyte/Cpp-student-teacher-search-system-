@@ -1,23 +1,22 @@
 # include <iostream>
-# include <vector>
 # include <string>
 using namespace std;
-class person {
-    protected:
-    string name;
-    string subject;
-    int Cnic;
-    int age;
-    public:
-    person() : name(""), subject(""), Cnic(0), age(0) {}
-    void setName(string n) { name = n; }
-    void setSubject(string s) { subject = s; }
-    void setCnic(int c) { Cnic = c; }
-    void setAge(int a) { age = a; }
 
-    string getName () const { return name; }
-    string getSubject() const { return subject; }
-    int getCnic() const { return Cnic; }
-    int getAge() const { return age; }
+int main() {
+    cout << "Enter a number" << endl;
+    int num_get;
+    cin >> num_get;
+    int arr[5] = {1, 2, 3, 4, 5};
+    for(int i = 0; i < 5; i++) {
+    if (arr[i] >= num_get) {
+        cout << "Key found at index: " << i << endl;
+    }
+    else {
+        cout << "Key  found at index: " << i << endl;
+        
+    
+}
+    }
+    return 0;
 
 }
